@@ -1,0 +1,156 @@
+*{box-sizing: border-box;}
+header{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 40px; */
+    height: 100px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    background-color: rgba(248, 242, 242, 0.456);
+}
+header .logo-title .title{
+    background-color: rgb(16, 189, 160);
+    font-size: 36px;
+    font-weight: 700;
+    padding: 32px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+   font-size: 24px;
+   font-weight: 500;
+   color: rgb(113, 113, 113);
+   padding: 20px;
+}
+li span{
+   margin-left: 20px;
+   color: rgb(201, 200, 200);
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+section h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(19, 117, 24);
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(212, 209, 209);
+}
+.image img{
+    width: 230px;
+    height: 200px;
+   padding: 10px;
+   position: relative;
+  
+
+}
+section{
+    
+    width: 40%;
+   
+}
+.image{
+  
+    margin: 20px;
+   
+}
+.image div{
+   
+}
+
+.portfolio{
+    width: 34%;
+    height: auto;
+    background-color: #fff;
+    margin: 50px auto;
+  
+}
+div{
+    position: relative;
+    float: left;
+}
+  div p{
+    position: absolute;
+    bottom: 20px;
+    background-color: rgb(24, 167, 120);
+    color: #fff;
+    font-size: 20px;
+    width: 80%;
+    height: 40px;
+    font-weight: bold;
+    padding: 6px;
+   text-align: center;
+  margin-left: 30px;
+}
+.portfolio h2{
+    margin: 6px;
+    font-size: 34px;
+    color: rgb(14, 173, 120);
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10px;
+  
+    border-bottom: 2px solid rgb(124, 124, 124);
+}
+
+.portfolio  img{
+    width: 230px;
+    height: 200px;
+   padding: 8px;
+   border-radius: 6px;
+   margin-left: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+aside{
+    width: 20%;
+    height: auto;
+}
+aside h3{
+    font-size: 24px;
+    color: rgb(19, 117, 24);
+    padding-bottom: 30px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(212, 209, 209);
+    text-align: center;
+   
+}
+aside img{
+   cursor: pointer;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin-left: 16px ;
+    border-radius: 20px;
+    box-shadow: 1px 0px 0px 0px rgb(247, 242, 242);
+  
+}
+footer{
+    height: 100px;
+    background-color: gray;
+    border-top: 10px solid rgb(15, 245, 199);
+}
+footer .foot{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  padding-top: 40px;
+}
